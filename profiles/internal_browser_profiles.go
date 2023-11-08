@@ -180,9 +180,9 @@ var Chrome_118 = ClientProfile{
 					&tls.SupportedPointsExtension{SupportedPoints: []byte{
 						tls.PointFormatUncompressed,
 					}},
+					&tls.ECHExtension{},
 					&tls.UtlsGREASEExtension{},
 					&tls.UtlsPaddingExtension{GetPaddingLen: tls.BoringPaddingStyle},
-					&tls.ECHExtension{},
 				},
 			}, nil
 		},
