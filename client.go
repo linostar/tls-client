@@ -4,15 +4,15 @@ import (
 	"bytes"
 	"context"
 	"fmt"
-	"github.com/bogdanfinn/tls-client/profiles"
+	"github.com/linostar/tls-client/profiles"
 	"io"
 	"net/url"
 	"strings"
 	"sync"
 	"time"
 
-	http "github.com/bogdanfinn/fhttp"
-	"github.com/bogdanfinn/fhttp/httputil"
+	http "github.com/linostar/fhttp"
+	"github.com/linostar/fhttp/httputil"
 	"golang.org/x/net/proxy"
 )
 

@@ -1,8 +1,8 @@
 package profiles
 
 import (
-	"github.com/bogdanfinn/fhttp/http2"
-	tls "github.com/bogdanfinn/utls"
+	"github.com/linostar/fhttp/http2"
+	tls "github.com/linostar/utls"
 )
 
 var DefaultClientProfile = Chrome_117

@@ -1,27 +1,27 @@
-module github.com/bogdanfinn/tls-client
+module github.com/linostar/tls-client
 
 go 1.20
 
 require (
-	github.com/bogdanfinn/fhttp v0.5.24
-	github.com/bogdanfinn/utls v1.5.16
 	github.com/google/uuid v1.3.0
+	github.com/linostar/fhttp v0.0.0-20231108143926-1ea3a30ce5c1
+	github.com/linostar/utls v0.0.0-20231108143519-9c6c5242e16d
 	github.com/stretchr/testify v1.8.0
 	github.com/tam7t/hpkp v0.0.0-20160821193359-2b70b4024ed5
-	golang.org/x/net v0.5.0
+	golang.org/x/net v0.17.0
 )
 
 require (
-	github.com/andybalholm/brotli v1.0.4 // indirect
+	github.com/andybalholm/brotli v1.0.6 // indirect
 	github.com/davecgh/go-spew v1.1.1 // indirect
-	github.com/klauspost/compress v1.15.12 // indirect
+	github.com/klauspost/compress v1.17.2 // indirect
 	github.com/pmezard/go-difflib v1.0.0 // indirect
-	golang.org/x/crypto v0.1.0 // indirect
-	golang.org/x/sys v0.4.0 // indirect
-	golang.org/x/text v0.6.0 // indirect
+	golang.org/x/crypto v0.14.0 // indirect
+	golang.org/x/sys v0.14.0 // indirect
+	golang.org/x/text v0.14.0 // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 )
 
-// replace github.com/bogdanfinn/utls => ../utls
+// replace github.com/linostar/utls => ../utls
 
-// replace github.com/bogdanfinn/fhttp => ../fhttp
+// replace github.com/linostar/fhttp => ../fhttp

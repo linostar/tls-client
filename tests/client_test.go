@@ -2,15 +2,15 @@ package tests
 
 import (
 	"encoding/json"
-	"github.com/bogdanfinn/tls-client/profiles"
+	"github.com/linostar/tls-client/profiles"
 	"io"
 	"testing"
 	"time"
 
-	http "github.com/bogdanfinn/fhttp"
-	tls_client "github.com/bogdanfinn/tls-client"
-	"github.com/bogdanfinn/tls-client/shared"
-	tls "github.com/bogdanfinn/utls"
+	http "github.com/linostar/fhttp"
+	tls_client "github.com/linostar/tls-client"
+	"github.com/linostar/tls-client/shared"
+	tls "github.com/linostar/utls"
 )
 
 func TestClients(t *testing.T) {

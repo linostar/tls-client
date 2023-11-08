@@ -6,8 +6,8 @@ import (
 	"strings"
 	"sync"
 
-	http "github.com/bogdanfinn/fhttp"
-	"github.com/bogdanfinn/fhttp/cookiejar"
+	http "github.com/linostar/fhttp"
+	"github.com/linostar/fhttp/cookiejar"
 )
 
 type CookieJarOption func(config *cookieJarConfig)

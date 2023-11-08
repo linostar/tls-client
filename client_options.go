@@ -3,11 +3,11 @@ package tls_client
 import (
 	"crypto/x509"
 	"fmt"
-	"github.com/bogdanfinn/tls-client/profiles"
+	"github.com/linostar/tls-client/profiles"
 	"net"
 	"time"
 
-	http "github.com/bogdanfinn/fhttp"
+	http "github.com/linostar/fhttp"
 )
 
 type HttpClientOption func(config *httpClientConfig)

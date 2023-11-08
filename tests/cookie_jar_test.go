@@ -1,13 +1,13 @@
 package tests
 
 import (
-	"github.com/bogdanfinn/tls-client/profiles"
+	"github.com/linostar/tls-client/profiles"
 	"io"
 	"net/url"
 	"testing"
 
-	http "github.com/bogdanfinn/fhttp"
-	tls_client "github.com/bogdanfinn/tls-client"
+	http "github.com/linostar/fhttp"
+	tls_client "github.com/linostar/tls-client"
 	"github.com/stretchr/testify/assert"
 )
 

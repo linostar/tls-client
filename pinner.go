@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"strings"
 
-	http "github.com/bogdanfinn/fhttp"
-	tls "github.com/bogdanfinn/utls"
+	http "github.com/linostar/fhttp"
+	tls "github.com/linostar/utls"
 	"github.com/tam7t/hpkp"
 )
 

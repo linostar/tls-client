@@ -5,18 +5,18 @@ import (
 	"bytes"
 	"encoding/base64"
 	"fmt"
-	"github.com/bogdanfinn/tls-client/profiles"
+	"github.com/linostar/tls-client/profiles"
 	"io"
 	"net"
 	"os"
 	"sync"
 
-	http "github.com/bogdanfinn/fhttp"
-	"github.com/bogdanfinn/fhttp/cookiejar"
-	"github.com/bogdanfinn/fhttp/http2"
-	"github.com/bogdanfinn/tls-client"
-	tls "github.com/bogdanfinn/utls"
 	"github.com/google/uuid"
+	http "github.com/linostar/fhttp"
+	"github.com/linostar/fhttp/cookiejar"
+	"github.com/linostar/fhttp/http2"
+	"github.com/linostar/tls-client"
+	tls "github.com/linostar/utls"
 )
 
 var clientsLock = sync.Mutex{}
