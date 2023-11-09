@@ -172,6 +172,7 @@ var Chrome_118 = ClientProfile{
 					}},
 					&tls.SCTExtension{},
 					&tls.StatusRequestExtension{},
+					&tls.ECHExtension{},
 					&tls.KeyShareExtension{[]tls.KeyShare{
 						{Group: tls.CurveID(tls.GREASE_PLACEHOLDER), Data: []byte{0}},
 						{Group: tls.X25519},
@@ -180,7 +181,6 @@ var Chrome_118 = ClientProfile{
 					&tls.SupportedPointsExtension{SupportedPoints: []byte{
 						tls.PointFormatUncompressed,
 					}},
-					&tls.ECHExtension{},
 					&tls.UtlsGREASEExtension{},
 					&tls.UtlsPaddingExtension{GetPaddingLen: tls.BoringPaddingStyle},
 				},
