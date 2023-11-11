@@ -4,8 +4,8 @@ go 1.20
 
 require (
 	github.com/google/uuid v1.3.0
-	github.com/linostar/fhttp v0.0.0-20231110154402-c973130c304a
-	github.com/linostar/utls v0.0.0-20231110154318-b4e245b7380d
+	github.com/linostar/fhttp v0.0.0-20231111135930-ff550ec34b40
+	github.com/linostar/utls v0.0.0-20231111135806-f510422d5eb0
 	github.com/stretchr/testify v1.8.0
 	github.com/tam7t/hpkp v0.0.0-20160821193359-2b70b4024ed5
 	golang.org/x/net v0.17.0
