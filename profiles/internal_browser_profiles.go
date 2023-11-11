@@ -182,8 +182,8 @@ var Chrome_118 = ClientProfile{
 						tls.PointFormatUncompressed,
 					}},
 					&tls.UtlsGREASEExtension{},
-					// &tls.UtlsPaddingExtension{GetPaddingLen: tls.BoringPaddingStyle},
 					&tls.PreSharedKeyExtension{},
+					&tls.UtlsPaddingExtension{GetPaddingLen: tls.BoringPaddingStyle},
 				},
 			}, nil
 		},
